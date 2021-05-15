@@ -1,0 +1,67 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+header {
+	background-color: #1b1717;
+	color: white;
+}
+h1 {
+	text-align: center;
+	padding: 1em 0%;
+}
+body {
+	background-color: #eeebdd;
+	text-align: center;
+}
+form {
+	margin: 5vh;
+	margin-bottom: 1em;
+	display: inline-block;
+}
+input,
+label {
+	display: block;
+	font-size: 24px;
+}
+input,
+#tipForm {
+	margin-bottom: 1em;
+	border: none;
+	border-radius: 0.2em;
+	outline: none;
+	padding: 0.2em 0.5em;
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+}
+#tipForm {
+	height: 44.59px;
+	font-size: 24px;
+}
+select {
+	color: grey;
+}
+#price {
+	text-align: left;
+}
+p {
+	display: inline-block;
+	font-size: 24px;
+}
+#submit {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: 75px;
+	font-size: 32px;
+	color: white;
+	background-color: #810000;
+	border: none;
+	margin-top: 1.5em;
+}
+h2 {
+	font-size: 32px;
+}
